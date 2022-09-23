@@ -1,0 +1,13 @@
+{
+	"name":"Arduino on ESP32",
+	"toolchainPrefix":"xtensa-esp32-elf",
+	"request":"attach",
+	"demangle":true,
+	"postAttachCommands":[
+		"set remote hardware-watchpoint-limit 2",
+		"monitor reset halt",
+		"flushregs",
+		"thb setup",
+		"c"
+	]
+}
