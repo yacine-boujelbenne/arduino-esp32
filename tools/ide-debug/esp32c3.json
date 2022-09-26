@@ -4,6 +4,6 @@
 	"request":"attach",
 	"demangle":true,
 	"postAttachCommands":[
-		"set remote hardware-watchpoint-limit 2"
+		"set remote hardware-watchpoint-limit 8"
 	]
 }
