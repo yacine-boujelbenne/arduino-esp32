@@ -146,6 +146,13 @@ build.extra_flags=-DESP32 -DCORE_DEBUG_LEVEL={build.code_debug} {build.loop_core
 build.extra_libs=
 build.memory_type={build.boot}_qspi
 
+# OpenOCD default configs
+build.openocdscript.esp32=board/esp32-wrover-kit-3.3v.cfg
+build.openocdscript.esp32s2=board/esp32s2-kaluga-1.cfg
+build.openocdscript.esp32s3=board/esp32s3-builtin.cfg
+build.openocdscript.esp32c3=board/esp32c3-builtin.cfg
+build.openocdscript={build.openocdscript.{build.mcu}}
+
 # Custom build options
 build.opt.name=build_opt.h
 build.opt.path={build.path}/{build.opt.name}
