@@ -72,11 +72,11 @@ esp32s3.build.memory_type={build.boot}_{build.psram_type}
 
 ## IDE 2.0 Seems to not update the value
 esp32s3.menu.JTAGAdapter.default=Integrated USB JTAG
-esp32s3.menu.JTAGAdapter.default.build.openocdscript=board/esp32s3-builtin.cfg
+esp32s3.menu.JTAGAdapter.default.build.openocdscript=esp32s3-builtin.cfg
 esp32s3.menu.JTAGAdapter.external=FTDI Adapter
-esp32s3.menu.JTAGAdapter.external.build.openocdscript=board/esp32s3-ftdi.cfg
+esp32s3.menu.JTAGAdapter.external.build.openocdscript=esp32s3-ftdi.cfg
 esp32s3.menu.JTAGAdapter.bridge=ESP USB Bridge
-esp32s3.menu.JTAGAdapter.bridge.build.openocdscript=board/esp32s3-bridge.cfg
+esp32s3.menu.JTAGAdapter.bridge.build.openocdscript=esp32s3-bridge.cfg
 
 esp32s3.menu.PSRAM.disabled=Disabled
 esp32s3.menu.PSRAM.disabled.build.defines=
@@ -281,11 +281,11 @@ esp32c3.build.defines=
 
 ## IDE 2.0 Seems to not update the value
 esp32c3.menu.JTAGAdapter.default=Integrated USB JTAG
-esp32c3.menu.JTAGAdapter.default.build.openocdscript=board/esp32c3-builtin.cfg
+esp32c3.menu.JTAGAdapter.default.build.openocdscript=esp32c3-builtin.cfg
 esp32c3.menu.JTAGAdapter.external=FTDI Adapter
-esp32c3.menu.JTAGAdapter.external.build.openocdscript=board/esp32c3-ftdi.cfg
+esp32c3.menu.JTAGAdapter.external.build.openocdscript=esp32c3-ftdi.cfg
 esp32c3.menu.JTAGAdapter.bridge=ESP USB Bridge
-esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=board/esp32c3-bridge.cfg
+esp32c3.menu.JTAGAdapter.bridge.build.openocdscript=esp32c3-bridge.cfg
 
 esp32c3.menu.CDCOnBoot.default=Disabled
 esp32c3.menu.CDCOnBoot.default.build.cdc_on_boot=0
@@ -446,9 +446,9 @@ esp32s2.build.defines=
 
 ## IDE 2.0 Seems to not update the value
 esp32s2.menu.JTAGAdapter.external=FTDI Adapter
-esp32s2.menu.JTAGAdapter.external.build.openocdscript=board/esp32s2-kaluga-1.cfg
+esp32s2.menu.JTAGAdapter.external.build.openocdscript=esp32s2-kaluga-1.cfg
 esp32s2.menu.JTAGAdapter.bridge=ESP USB Bridge
-esp32s2.menu.JTAGAdapter.bridge.build.openocdscript=board/esp32s2-bridge.cfg
+esp32s2.menu.JTAGAdapter.bridge.build.openocdscript=esp32s2-bridge.cfg
 
 esp32s2.menu.CDCOnBoot.default=Disabled
 esp32s2.menu.CDCOnBoot.default.build.cdc_on_boot=0
@@ -628,9 +628,9 @@ esp32.build.event_core=
 
 ## IDE 2.0 Seems to not update the value
 esp32.menu.JTAGAdapter.external=FTDI Adapter
-esp32.menu.JTAGAdapter.external.build.openocdscript=board/esp32-wrover-kit-3.3v.cfg
+esp32.menu.JTAGAdapter.external.build.openocdscript=esp32-wrover-kit-3.3v.cfg
 esp32.menu.JTAGAdapter.bridge=ESP USB Bridge
-esp32.menu.JTAGAdapter.bridge.build.openocdscript=board/esp32-bridge.cfg
+esp32.menu.JTAGAdapter.bridge.build.openocdscript=esp32-bridge.cfg
 
 esp32.menu.PSRAM.disabled=Disabled
 esp32.menu.PSRAM.disabled.build.defines=
