@@ -1,7 +1,7 @@
 pyserial>=3.0
 esptool>=3.1
 pytest-cov
-cryptography<3.4; platform_machine == "armv7l"
+cryptography<42.0.2; platform_machine == "armv7l"
 
 pytest>=6.2.0
 pexpect>=4.4
