@@ -11,3 +11,4 @@ pytest-embedded-serial>=0.5.1
 pytest-embedded-serial-esp>=0.5.1
 pytest-embedded-arduino>=0.5.1
 
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
