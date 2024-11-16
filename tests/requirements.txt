@@ -5,3 +5,4 @@ pytest-embedded-serial-esp==1.11.8
 pytest-embedded-arduino==1.11.8
 pytest-embedded-wokwi==1.11.8
 pytest-embedded-qemu==1.11.8
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
